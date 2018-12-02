@@ -502,7 +502,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-header {
     width: 100%;
-    height: 96px;
+    height: 50px;
     background-color: transparent;
     position: absolute;
     top: 0;
@@ -519,11 +519,7 @@ input[type="button"].btn--primary:focus {
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 501;
+    top: 100%
 }
 
 .header-logo a {
@@ -532,7 +528,7 @@ input[type="button"].btn--primary:focus {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 300px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -615,73 +611,6 @@ input[type="button"].btn--primary:focus {
 .header-nav__list a:visited {
     color: #FFFFFF;
 }
-
-.header-nav__social {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-    font-size: 1.8rem;
-}
-
-.header-nav__social li {
-    margin-right: 12px;
-    padding-left: 0;
-    display: inline-block;
-}
-
-.header-nav__social li a {
-    color: rgba(255, 255, 255, 0.15);
-}
-
-.header-nav__social li a:hover,
-.header-nav__social li a:focus {
-    color: white;
-}
-
-.header-nav__social li:last-child {
-    margin: 0;
-}
-
-.header-nav__close {
-    display: block;
-    height: 30px;
-    width: 30px;
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 36px;
-    right: 30px;
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
-    z-index: 800;
-}
-
-.header-nav__close span::before,
-.header-nav__close span::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 12px;
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 9px;
-    margin-top: -1px;
-}
-
-.header-nav__close span::before {
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.header-nav__close span::after {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
 
 /* menu is open
  * ----------------------------------------------- */
