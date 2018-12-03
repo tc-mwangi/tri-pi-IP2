@@ -1,14 +1,55 @@
-#Triangle PI
-#Project Description
-#Author information
-#Setup Instructions
-#Behaviour Driven Development(BDD)
-#Technologies used
-#Contact information
-#License and copyright information
-#
+# Tri-PI
 
-Who is the user?
+#### Triangle Type Detector Website, Monday, 3rd December 2018
+#### By **Loise Mwangi**
 
-Probably Children, adults studying math
-curious site visitors
+## Description
+tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, interface that determines the type of triangle based on side lengths. It deviates from a typical calculator by engaging the user through a simulated game-like environment that makes it both fun and informative.
+
+## Setup/Installation Requirements
+* Web browser
+* Adobe Flash Player
+
+## Behavior Driven Development BDD
+### Who is the target User?
+* Mainly School kids exploring shapes and geometry curious adults.
+
+### Front-end/User Interface Logic Objectives
+* Give a brief description and illustrations of types of triangle.
+* Get user input (length a, length b, length c (with predictive placeholder input text box).
+* Display answer(with an image and name of the triangle.)
+
+### Back-end/Business logic Objectives
+* get input from user (length a, length b, length c - pre-defined).
+* make input button active.
+* evaluate properties of the 4 scenarios
+* create/ make enter button active.
+* create functions and arrays
+* give answer/output.
+
+### Test 01 (Is it a triangle?)
+length a + length b > length c
+length b + length c > length a
+length c + length a > length b
+Could be equilateral, isosceles or scalene.
+
+### Test 02 (Is it an equilateral triangle?)
+a === b or b === c or a === c
+length a === length b, or length a === length c
+length b === length a, or length b === length c
+length c === length a, or length c === length b
+### Test 03 (Is it an scalene triangle?)
+a === b or b === c or a === c
+length a === length b, or length a === length c
+length b === length a, or length b === length c
+length c === length a, or length c === length b
+
+
+
+
+## Built in/with
+Webpage created using HTML, CSS and JavaScript. Tools used include: Atom, Command Line, Illustrator and Photoshop.
+## Support and contact details
+To contribute or get support contact me at lsmwangi@gmail.com.
+### License
+Copyright (c) {2018} **Loise Mwangi**

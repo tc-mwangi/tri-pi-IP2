@@ -22,8 +22,8 @@
 
 //1. get input from user (length a, length b, length c - pre-defined).
 
-var length a = parseInt(document.getElementById("lengthA"));
-var length b = parseInt(document.getElementById("lengthB"));
+var length a = parseInt(document.getElementById("lengtha"));
+var length b = parseInt(document.getElementById("lengthb"));
 var length c = parseInt(document.getElementById("lengthC"));
 
 var outputOnEnter = document.getElementById("btn");
