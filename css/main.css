@@ -818,25 +818,6 @@ input[type="button"].btn--primary:focus {
     font-size: 2rem;
 }
 
-.user-social li {
-    margin-right: 15px;
-    padding-left: 0;
-    display: inline-block;
-}
-
-.user-social li a {
-    color: white;
-}
-
-.user-social li a:hover,
-.user-social li a:focus {
-    color: #0ab289;
-}
-
-.user-social li:last-child {
-    margin: 0;
-}
-
 .message-warning,
 .message-success {
     display: none;

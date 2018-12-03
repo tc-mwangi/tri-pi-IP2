@@ -28,6 +28,7 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 * give answer/output.
 
 ### Test 01 (Is it a triangle?)
+The sum of two sides has to greater than the 3rd.
 a + b > c
 b + c > a
 c + a > b

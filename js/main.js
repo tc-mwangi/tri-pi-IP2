@@ -1,17 +1,17 @@
+function(showOutput){
 
-var length a = parseInt(document.getElementById("lengtha"));
-var length b = parseInt(document.getElementById("lengthb"));
-var length c = parseInt(document.getElementById("lengthC"));
+var a = parseInt(document.getElementById("length a").value);
+var b = parseInt(document.getElementById("length b").value);
+var c = parseInt(document.getElementById("length c").value);
 
-if ()
-
-var outputOnEnter = document.getElementById("btn");
-
-
-
-var button = document.getElementById("btn");
-
-button.onclick = function(){
-    var body = document.getElementsByTagName("body")[0];
-    body.style.backgroundColor = "blue";
-}
+if (a + b > c || b + c > a || b + c > a) {
+  else if (a === b && b === c && a === c) {
+    document.getElementById("button").innerHTML = "Equilateral, guilty as charged!";
+  }
+  else if a !== b and b !== c and a !== c {
+    document.getElementById("button").innerHTML = "Scalene, guilty as charged!";
+  }
+  else {
+    document.getElementById("button").innerHTML = "Scalene, guilty as charged!";
+  }
+};
