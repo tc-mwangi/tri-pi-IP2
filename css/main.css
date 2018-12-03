@@ -483,24 +483,11 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-home {
     width: 100%;
-    height: 100%;
-    min-height: 786px;
+    height: 150%;
+    min-height: 700px;
     background-color: transparent;
     position: relative;
     display: table;
-}
-
-.s-home .shadow-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .4;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
 .s-home .overlay {
@@ -509,8 +496,8 @@ input[type="button"].btn--primary:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .6;
-    background-color: #000000;
+    opacity: .25%;
+    background-color: #151515;
 }
 
 .no-js .s-home {
@@ -533,7 +520,7 @@ input[type="button"].btn--primary:focus {
 
 .home-content h3 {
     font-family: "Proxima Nova", sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #fecf03;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -563,7 +550,7 @@ input[type="button"].btn--primary:focus {
 
 .home-content__buttons .btn {
     width: 215px;
-    border-color: #fecf03;
+    border-color: #0ab289;
     color: #fecf03;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
@@ -637,7 +624,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/math-background.png");
+    background-image: url("../images/background-math_Background-math.jpg");
+    background-size: auto;
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
@@ -651,8 +639,10 @@ input[type="button"].btn--primary:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .8;
-    background-color: #151515;
+    opacity: .50;
+    background-image: url("../images/background-math_Background-math.jpg");
+    background-size: cover;
+    background-color: #FFFFFF;
 }
 
 .s-contact .form-field {
