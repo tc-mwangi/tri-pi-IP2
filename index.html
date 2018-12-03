@@ -67,7 +67,7 @@
           </h1>
 
           <div class="home-content__buttons">
-              <a href="#contact" class="smoothscroll btn btn--stroke">
+              <a href="#user" class="smoothscroll btn btn--stroke">
                 Start
               </a>
           </div>
@@ -92,10 +92,10 @@
 
     <!-- Form section
         ================================================== -->
-      <section id="contact" class="s-contact">
+      <section id="user" class="user-input">
 
         <div class="overlay"></div>
-        <div class="contact__line"></div>
+        <div class="user__line"></div>
 
         <div class="row section-header" data-aos="fade-up">
           <div class="col-full">
@@ -106,72 +106,68 @@
           </div>
         </div>
 
-        <div class="row contact-content" data-aos="fade-up">
+        <div class="row user-content" data-aos="fade-up">
 
-          <div class="contact-primary">
+          <div class="user-primary">
 
             <h3 class="h6">Surrender evidence to know the identity of the "suspect"</h3>
 
-            <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+            <form name="userForm" id="userForm" method="post" action="" novalidate="novalidate">
               <fieldset>
 
                 <div class="col-six tab-full right footer-subscribe">
                   <div class="subscribe-form">
+
                     <form id="mc-form" class="group" novalidate="true">
 
-                      <input type="number" value="" name="EMAIL" class="email" id="mc-email" placeholder="length a" required="">
+                      <input type="text" value="" name="EMAIL" class="email" id="length a" placeholder="length a">
 
-                      <input type="number" value="" name="EMAIL" class="email" id="mc-email" placeholder="length b" required="">
+                      <input type="text" value="" name="EMAIL" class="email" id="length b" placeholder="length b" required="">
 
-                      <input type="number" value="" name="EMAIL" class="email" id="mc-email" placeholder="length c" required="">
+                      <input type="text" value="" name="EMAIL" class="email" id="length c" placeholder="length c" required="">
 
-                      <label for="mc-email" class="subscribe-message"></label>
+                      <input type="submit" name="" value="Submit" onclick="formdata()">
+
                     </form>
                   </div>
 
                 <div class="form-field">
-                  <button class="full-width btn--primary">Initialize</button>
-                  <div class="submit-loader">
-                    <div class="text-loader">Sending Evidence...</div>
-                    <div class="s-loader">
-                      <div class="bounce1"></div>
-                      <div class="bounce2"></div>
-                      <div class="bounce3"></div>
-                    </div>
-                  </div>
+
+                  <button class="full-width btn--primary" id="btn">Initialize</button>
+
                 </div>
 
               </fieldset>
             </form>
 
-            <!-- contact-warning -->
+            <!-- user-warning -->
             <div class="message-warning">
               Something went wrong. Please try again.
             </div>
 
-            <!-- contact-success -->
+            <!-- user-success -->
             <div class="message-success">
               The evidence was received, thank you!<br>
             </div>
 
-          </div> <!-- end contact-primary -->
+          </div> <!-- end user-primary -->
 
-          <div class="contact-secondary">
+          <div class="user-secondary">
             <h5>Be the next Tri-champion</h5>
-            <div class="contact-info">
+            <div class="user-info">
               <img src="images/kids_char-1-boy.png" alt="avatar">
             </div>
 
-            <div class="contact-info">
+            <div class="user-info">
 
 
 
-            </div> <!-- end contact-info -->
-          </div> <!-- end contact-secondary -->
+            </div> <!-- end user-info -->
+          </div> <!-- end user-secondary -->
 
-        </div> <!-- end contact-content -->
+        </div> <!-- end user-content -->
 
-      </section> <!-- end s-contact -->
+      </section> <!-- end s-user -->
 
     <!-- footer
     ================================================== -->

@@ -28,24 +28,15 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 * give answer/output.
 
 ### Test 01 (Is it a triangle?)
-length a + length b > length c
-length b + length c > length a
-length c + length a > length b
-Could be equilateral, isosceles or scalene.
+a + b > c
+b + c > a
+c + a > b
 
 ### Test 02 (Is it an equilateral triangle?)
 a === b or b === c or a === c
-length a === length b, or length a === length c
-length b === length a, or length b === length c
-length c === length a, or length c === length b
+
 ### Test 03 (Is it an scalene triangle?)
-a === b or b === c or a === c
-length a === length b, or length a === length c
-length b === length a, or length b === length c
-length c === length a, or length c === length b
-
-
-
+a !== b and b !== c and a !== c
 
 ## Built in/with
 Webpage created using HTML, CSS and JavaScript. Tools used include: Atom, Command Line, Illustrator and Photoshop.

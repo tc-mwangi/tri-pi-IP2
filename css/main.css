@@ -619,10 +619,10 @@ input[type="button"].btn--primary:focus {
 }
 
 /* ===================================================================
- * # input
+ * # form section
  *
  * ------------------------------------------------------------------- */
-.s-contact {
+.user-input {
     background-color: #151515;
     background-image: url("../images/background-math_Background-math.jpg");
     background-size: auto;
@@ -633,7 +633,7 @@ input[type="button"].btn--primary:focus {
     position: relative;
 }
 
-.s-contact .overlay {
+.user-input .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -645,17 +645,17 @@ input[type="button"].btn--primary:focus {
     background-color: #FFFFFF;
 }
 
-.s-contact .form-field {
+.user-input .form-field {
     position: relative;
 }
 
-.s-contact .form-field:after {
+.user-input .form-field:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.s-contact .form-field label {
+.user-input .form-field label {
     font-family: "montserrat-light", sans-serif;
     font-size: 1rem;
     line-height: 2.4rem;
@@ -670,7 +670,7 @@ input[type="button"].btn--primary:focus {
     background: #0ab289;
 }
 
-.s-contact .form-field label::after {
+.user-input .form-field label::after {
     content: "";
     position: absolute;
     left: -5px;
@@ -681,7 +681,7 @@ input[type="button"].btn--primary:focus {
     border-right: 5px solid #0ab289;
 }
 
-.contact__line {
+.user__line {
     display: block;
     width: 2px;
     height: 20.4rem;
@@ -692,7 +692,7 @@ input[type="button"].btn--primary:focus {
     margin-left: -1px;
 }
 
-.contact-content {
+.user-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.4);
@@ -704,95 +704,95 @@ input[type="button"].btn--primary:focus {
     position: relative;
 }
 
-.contact-content h3 {
+.user-content h3 {
     margin-top: 0;
     margin-bottom: 6.6rem;
     color: #FFFFFF;
 }
 
-.contact-content h5 {
+.user-content h5 {
     margin-top: 0;
     color: #0ab289;
 }
 
-.contact-content input[type="email"],
-.contact-content input[type="number"],
-.contact-content input[type="search"],
-.contact-content input[type="text"],
-.contact-content input[type="tel"],
-.contact-content input[type="url"],
-.contact-content input[type="password"],
-.contact-content textarea,
-.contact-content select {
+.user-content input[type="email"],
+.user-content input[type="number"],
+.user-content input[type="search"],
+.user-content input[type="text"],
+.user-content input[type="tel"],
+.user-content input[type="url"],
+.user-content input[type="password"],
+.user-content textarea,
+.user-content select {
     color: rgba(255, 255, 255, 0.6);
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
 
-.contact-content input[type="email"]:focus,
-.contact-content input[type="number"]:focus,
-.contact-content input[type="search"]:focus,
-.contact-content input[type="text"]:focus,
-.contact-content input[type="tel"]:focus,
-.contact-content input[type="url"]:focus,
-.contact-content input[type="password"]:focus,
-.contact-content textarea:focus,
-.contact-content select:focus {
+.user-content input[type="email"]:focus,
+.user-content input[type="number"]:focus,
+.user-content input[type="search"]:focus,
+.user-content input[type="text"]:focus,
+.user-content input[type="tel"]:focus,
+.user-content input[type="url"]:focus,
+.user-content input[type="password"]:focus,
+.user-content textarea:focus,
+.user-content select:focus {
     color: #FFFFFF;
     border-bottom: 1px solid #0ab289;
 }
 
-.contact-content button,
-.contact-content .btn {
+.user-content button,
+.user-content .btn {
     margin-top: 3.6rem;
 }
-.contact-content input::-webkit-input-placeholder,
-.contact-content select::-webkit-input-placeholder,
-.contact-content textarea::-webkit-input-placeholder {
+.user-content input::-webkit-input-placeholder,
+.user-content select::-webkit-input-placeholder,
+.user-content textarea::-webkit-input-placeholder {
     color: #4f4f4f;
 }
 
-.contact-content input:-moz-placeholder,
-.contact-content select:-moz-placeholder,
-.contact-content textarea:-moz-placeholder {
+.user-content input:-moz-placeholder,
+.user-content select:-moz-placeholder,
+.user-content textarea:-moz-placeholder {
     color: #4f4f4f;    /* Firefox 18- */
 }
 
-.contact-content input::-moz-placeholder,
-.contact-content select::-moz-placeholder,
-.contact-content textarea::-moz-placeholder {
+.user-content input::-moz-placeholder,
+.user-content select::-moz-placeholder,
+.user-content textarea::-moz-placeholder {
     color: #4f4f4f;    /* Firefox 19+ */
 }
 
-.contact-content input:-ms-input-placeholder,
-.contact-content select:-ms-input-placeholder,
-.contact-content textarea:-ms-input-placeholder {
+.user-content input:-ms-input-placeholder,
+.user-content select:-ms-input-placeholder,
+.user-content textarea:-ms-input-placeholder {
     color: #4f4f4f;
 }
 
-.contact-content input.placeholder,
-.contact-content select.placeholder,
-.contact-content textarea.placeholder {
+.user-content input.placeholder,
+.user-content select.placeholder,
+.user-content textarea.placeholder {
     color: #4f4f4f !important;
 }
-.contact-primary, .contact-secondary {
+.user-primary, .user-secondary {
     float: left;
     padding: 0 5rem;
 }
 
-.contact-primary {
+.user-primary {
     width: 65%;
 }
 
-.contact-primary #contactForm {
+.user-primary #userForm {
     margin-top: -1.5rem;
 }
 
-.contact-secondary {
+.user-secondary {
     width: 35%;
 }
 
-.contact-secondary::before {
+.user-secondary::before {
     content: "";
     display: block;
     width: 35%;
@@ -803,37 +803,37 @@ input[type="button"].btn--primary:focus {
     background-color: #121212;
 }
 
-.contact-secondary .contact-info {
+.user-secondary .user-info {
     position: relative;
 }
 
-.contact-secondary .cinfo {
+.user-secondary .cinfo {
     margin-bottom: 4.8rem;
 }
 
-.contact-social {
+.user-social {
     list-style: none;
     display: inline-block;
     margin: 0;
     font-size: 2rem;
 }
 
-.contact-social li {
+.user-social li {
     margin-right: 15px;
     padding-left: 0;
     display: inline-block;
 }
 
-.contact-social li a {
+.user-social li a {
     color: white;
 }
 
-.contact-social li a:hover,
-.contact-social li a:focus {
+.user-social li a:hover,
+.user-social li a:focus {
     color: #0ab289;
 }
 
-.contact-social li:last-child {
+.user-social li:last-child {
     margin: 0;
 }
 
