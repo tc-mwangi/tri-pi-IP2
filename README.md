@@ -36,6 +36,9 @@ c + a > b
 ### Test 02 (Is it an equilateral triangle?)
 a === b or b === c or a === c
 
+### Test 03 (Is it an isosceles triangle?)
+a === b || b === c || c === a
+
 ### Test 03 (Is it an scalene triangle?)
 a !== b and b !== c and a !== c
 
