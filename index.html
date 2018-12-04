@@ -21,7 +21,7 @@
     <!--- JS
     ================================================== -->
     <script src="js/modernizr.js"></script>
-    <script src="js/ip.js"></script>
+    <script src="js/main.js"></script>
 
 
     <!-- favicons
@@ -129,7 +129,7 @@
 
                     <div class="form-field">
 
-                      <input id="button" class="full-width btn--primary" type="button" name="Initialize" value="Launch Enquiry">
+                      <input id="button" class="full-width btn--primary" type="button" name="Initialize" value="Launch Enquiry" onclick="user_Output();">
 
                     </form>
 
@@ -141,12 +141,12 @@
             </form>
 
             <!-- user-warning -->
-            <div class="message-warning">
+            <div id="not-successful" class="message-warning">
               Something went wrong. Please try again.
             </div>
 
             <!-- user-success -->
-            <div class="message-success">
+            <div id="successful" class="message-success">
               The evidence was received, thank you!<br>
             </div>
 
