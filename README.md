@@ -21,7 +21,6 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 
 ### Back-end/Business logic Objectives
 * get input from user (length a, length b, length c - pre-defined).
-* make input button active.
 * evaluate properties of the 4 scenarios
 * create functions and arrays
 * give answer/output.
@@ -37,21 +36,6 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 | No input at all (empty fields).        | ""                | False             |      
 | Input values that cant form a triangle | 1, 2, 5           | False             |
 | Letters or symbols as inputs.          | ad. ? /           | False             |
-
-### Test 01 (A triangle?)
-
-a + b >= c
-b + c >= a
-c + a >= b
-
-### Test 02 (An equilateral triangle?)
-a === b or b === c or a === c
-
-### Test 03 (An isosceles triangle?)
-a === b || b === c || c === a
-
-### Test 03 (A scalene triangle?)
-a !== b and b !== c and a !== c
 
 ## Built in/with
 Webpage created using HTML, CSS and JavaScript. Tools used include: Atom, Command Line, Illustrator and Photoshop.
