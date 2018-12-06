@@ -6,9 +6,11 @@
 ## Description
 tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, interface that determines the type of triangle based on side lengths. It deviates from a typical calculator by engaging the user through a simulated game-like environment that makes it both fun and informative.
 
-## Setup/Installation Requirements
-* Web browser
-* Adobe Flash Player
+## Screenshots
+
+![Image](https://github.com/tc-mwangi/tri-pi-IP2/blob/master/images/Screen%20Shot%202018-12-06%20at%2009.20.03.png)
+
+![Image](https://github.com/tc-mwangi/tri-pi-IP2/blob/master/images/csreenshot1.png)
 
 ## Behavior Driven Development BDD
 ### Who is the target User?
