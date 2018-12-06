@@ -26,9 +26,10 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 * create functions and arrays
 * give answer/output.
 
+## Behaviour
 | Behaviour                              | Input Example     | Output Example    |
 | The program should handle:             | When it receives: | It should return  |
-| :---                                   | :---:             |              ---: |
+| ----                                   | :---:             |              ---: |
 | The triangle is Equilateral.           | 3, 3, 3           | True              |
 | The triangle is Isosceles.             | 3, 3, 4           | True              |
 | The triangle is Scalene.               | 3, 4, 5           | True              |
