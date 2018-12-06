@@ -40,9 +40,9 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 
 ### Test 01 (A triangle?)
 
-a + b <= c
-b + c <= a
-c + a <= b
+a + b >= c
+b + c >= a
+c + a >= b
 
 ### Test 02 (An equilateral triangle?)
 a === b or b === c or a === c

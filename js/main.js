@@ -14,11 +14,11 @@ var clickMe = document.getElementById("clickMe").value;
 
 var manArray = [];
 manArray.push(a, b, c);
-act();
-}
+act(a,b,c);
+};
 
 function act(a,b,c) {
-if (a + b <= c || b + c <= a || b + c <= a) {
+if (a + b >= c || b + c >= a || b + c >= a) {
 
   if (a === b && b === c && a === c) {
     clickMe.innerHTML = "<p>Equilateral, guilty as charged!</p>"
