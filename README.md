@@ -12,10 +12,10 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 
 ## Behavior Driven Development BDD
 ### Who is the target User?
-* Mainly School kids exploring shapes and geometry curious adults.
+* Mainly School kids exploring shapes and geometry and curious adults.
 
 ### Front-end/User Interface Logic Objectives
-* Give a brief description and illustrations of types of triangle.
+
 * Get user input (length a, length b, length c (with predictive placeholder input text box).
 * Display answer(with an image and name of the triangle.)
 
@@ -23,23 +23,22 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 * get input from user (length a, length b, length c - pre-defined).
 * make input button active.
 * evaluate properties of the 4 scenarios
-* create/ make enter button active.
 * create functions and arrays
 * give answer/output.
 
-### Test 01 (Is it a triangle?)
+### Test 01 (A triangle?)
 The sum of two sides has to greater than the 3rd.
-a + b > c
-b + c > a
-c + a > b
+a + b <= c
+b + c <= a
+c + a <= b
 
-### Test 02 (Is it an equilateral triangle?)
+### Test 02 (An equilateral triangle?)
 a === b or b === c or a === c
 
-### Test 03 (Is it an isosceles triangle?)
+### Test 03 (An isosceles triangle?)
 a === b || b === c || c === a
 
-### Test 03 (Is it an scalene triangle?)
+### Test 03 (A scalene triangle?)
 a !== b and b !== c and a !== c
 
 ## Built in/with
