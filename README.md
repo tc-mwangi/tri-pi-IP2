@@ -26,8 +26,18 @@ tri-pi (Triangle Private Investigator) is a fun website with a user-friendly, in
 * create functions and arrays
 * give answer/output.
 
+| Behaviour                              | Input Example     | Output Example    |
+| The program should handle:             | When it receives: | It should return  |
+| :---                                   | :---:             |              ---: |
+| The triangle is Equilateral.           | 3, 3, 3           | True              |
+| The triangle is Isosceles.             | 3, 3, 4           | True              |
+| The triangle is Scalene.               | 3, 4, 5           | True              |
+| No input at all (empty fields).        | ""                | False             |      
+| Input values that cant form a triangle | 1, 2, 5           | False             |
+| Letters or symbols as inputs.          | ad. ? /           | False             |
+
 ### Test 01 (A triangle?)
-The sum of two sides has to greater than the 3rd.
+
 a + b <= c
 b + c <= a
 c + a <= b
